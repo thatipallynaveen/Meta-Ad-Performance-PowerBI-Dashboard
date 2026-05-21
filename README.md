@@ -2,15 +2,15 @@
 An interactive Power BI dashboard analyzing Meta (Facebook &amp; Instagram) ad campaign performance
 # Meta Ad Performance Power BI Dashboard
 
-## 📊 Project Overview
+##  Project Overview
 [cite_start]This project involves the development of an interactive Meta Ad Performance Dashboard using Power BI to track, analyze, and optimize paid advertising campaigns across Facebook and Instagram[cite: 6, 202]. [cite_start]The dashboard monitors critical marketing metrics across the conversion funnel—from top-of-funnel reach to bottom-of-funnel purchases—to evaluate audience engagement patterns and campaign Return on Investment (ROI)[cite: 6, 48, 203, 206].
 
-### 🎯 Business Objective
+### Business Objective
 [cite_start]The primary goal is to provide the marketing team with actionable, data-driven visibility into budget utilization, platform effectiveness, and audience targeting to maximize return per dollar spent[cite: 29, 54, 203].
 
 ---
 
-## ⚙️ Data Architecture & Modeling
+##  Data Architecture & Modeling
 [cite_start]The dataset is structured following an optimized **Star Schema** designed to ensure fast cross-filtering, clean DAX calculation logic, and efficient dashboard loading speeds[cite: 113].
 
 - [cite_start]**Fact Table:** - `ad_events`: Stores log-level user interaction events such as impressions, clicks, shares, comments, and final purchases[cite: 57, 80].
@@ -21,7 +21,7 @@ An interactive Power BI dashboard analyzing Meta (Facebook &amp; Instagram) ad c
 
 ---
 
-## 🛠️ Tech Stack & Advanced Power BI Features Used
+##  Tech Stack & Advanced Power BI Features Used
 - **BI Tool:** Power BI Desktop
 - [cite_start]**Data Modeling:** Star Schema (1 Fact Table connected via One-to-Many relationships to 3 Dimension Tables)[cite: 113, 114, 115].
 - [cite_start]**Dynamic Metric Selection:** Implemented **Field Parameters** to bundle core measures (Impressions, Clicks, and Engagements), allowing users to dynamically toggle the Y-axis and metrics of all visual charts simultaneously[cite: 4, 234, 239].
